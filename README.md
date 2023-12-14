@@ -10,7 +10,7 @@ git init\
 git add .\
 git commit -m "create members.txt"\
 git branch -M main\
-git remote add origin https://github.com/SDPX-DevBit/our_git_repo.git\
+git remote add origin https://github.com/SDPX-DevBit/our_git_repo.git \
 git push origin main
 
 ## Half flow (\*)
