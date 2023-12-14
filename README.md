@@ -11,7 +11,7 @@ git add .\
 git commit -m "create members.txt"\
 git branch -M main\
 git remote add origin https://github.com/SDPX-DevBit/our_git_repo.git\
-git push origin main\
+git push origin main
 
 ## Half flow (\*)
 
@@ -30,7 +30,7 @@ git commit -m "add own lastname for C"\
 git push origin C1\
 git checkout dev\
 -->Merge pull request B and C into dev branch by Github GUI\
-git pull origin dev\
+git pull origin dev
 
 ## Repeat previous(\*) but change B -> D and C -> E
 
@@ -47,9 +47,9 @@ git commit -m "add own lastname for E"\
 git push origin E1\
 git checkout dev\
 -->Merge pull request D and E into dev branch by Github GUI\
-git pull origin dev\
+git pull origin dev
 
 ## Last
 
 git checkout main\
-git merge dev\
+git merge dev
